@@ -25,11 +25,8 @@ export const Contact = ({ data }: { data: PageBlocksContact }) => {
             <p
               data-tina-field={tinaField(data, `quote`)}
               className="relative opacity-95"
-              dangerouslySetInnerHTML={{
-                __html: data.quote,
-              }}
             >
-              
+              {data.quote} test
             </p>
             <span
               className={`block opacity-15 text-8xl absolute inset-y-1/2 transform translate-y-3	-right-4 leading-4 -z-1`}
