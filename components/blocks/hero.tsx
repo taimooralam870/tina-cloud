@@ -191,7 +191,7 @@ export const heroBlockSchema: Template = {
           name: "src",
           label: "Image Source",
           type: "image",
-        },
+        }, 
         {
           name: "alt",
           label: "Alt Text",

@@ -3,8 +3,18 @@ import { heroBlockSchema } from "../../components/blocks/hero";
 import { contentBlockSchema } from "../../components/blocks/content";
 import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { contactBlockSchema } from "../../components/blocks/contact";
-import { featureBlockSchema } from "../../components/blocks/features";
-
+import { sliderBlockSchema } from "../../components/blocks/slider";
+import { featureBlockSchema } from "../../components/blocks/features"; 
+import { featuresBlockSchema } from "../../components/blocks/t_feature";
+import { bannerBlockSchema } from "../../components/blocks/t_banner";
+import { imageTextBlockSchema } from "../../components/blocks/t_img_text";
+import { shopBlockSchema } from "../../components/blocks/t_shop";
+import { posterBlockSchema } from "../../components/blocks/t_poster";
+import { imageBlockSchema } from "../../components/blocks/t_imgText";
+import { productBlockSchema } from "../../components/blocks/t_products";
+import { plantBlockSchema } from "../../components/blocks/t_new_plants";
+import { reviewBlockSchema } from "../../components/blocks/t_review";
+import { subscribeBlockSchema } from "../../components/blocks/t_subscribe";
 const Page: Collection = {
   label: "Pages",
   name: "page",
@@ -48,6 +58,17 @@ const Page: Collection = {
         contentBlockSchema,
         testimonialBlockSchema,
         contactBlockSchema,
+        sliderBlockSchema,
+        featuresBlockSchema,
+        bannerBlockSchema,
+        imageTextBlockSchema,
+        shopBlockSchema,
+        posterBlockSchema,
+        imageBlockSchema,
+        productBlockSchema,
+        plantBlockSchema,
+        reviewBlockSchema,
+        subscribeBlockSchema,
       ],
     },
   ],
